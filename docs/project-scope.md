@@ -1,7 +1,7 @@
 # Careera Project Scope
 
 **Version:** 1.0  
-**Author:** Shafiqah Azzahrah Binti Amiruddin  
+**Author:** Yasmin Hazran
 **Project Type:** Full Stack Web Application  
 **Target Users:** University Students and Recent Graduates
 
