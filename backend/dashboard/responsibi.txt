@@ -1,0 +1,9 @@
+Count total applications
+Count applications this month
+Count interviews
+Count offers
+Count rejections
+Calculate conversion rates
+Group applications by status
+Group applications by source
+Group applications by month

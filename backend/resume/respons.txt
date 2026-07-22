@@ -1,0 +1,9 @@
+validate uploaded files
+validate pdf format
+enforce file-size limit
+generate safe storage names
+upload files
+replace files
+extract text
+store metadata
+retrieve files securely

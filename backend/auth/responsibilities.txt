@@ -1,0 +1,7 @@
+register users
+validate email uniqueness
+hash passwords
+verify passwords
+generate JWT access tokens
+decode JWT access tokens
+retrieve current authenticated users

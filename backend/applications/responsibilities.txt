@@ -1,0 +1,8 @@
+create applications
+retrieve applications
+update
+delete
+search
+filter by status
+filter by application source
+check ownership

@@ -1,0 +1,10 @@
+Clean resume text
+Clean job-description text
+Extract keywords
+Compare keywords
+Calculate the match score
+Detect common sections
+Detect contact information
+Generate recommendations
+Store analysis results
+detect missing keywords from requirements
