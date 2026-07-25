@@ -1,4 +1,4 @@
-# Auth Flow
+# Flow Description and Diagram
 
 ## Authentication Design
 
@@ -94,3 +94,23 @@ user_id = authenticated user ID
 ```
 
 This prevents one user from viewing or modifying another user's applications by changing the application ID in the URL.
+
+## Job Application Flow
+
+```mermaid
+sequenceDiagram
+    actor User
+    participant Frontend
+    participant API as FastAPI
+    participant DB as PostgreSQL
+
+    User->>Frontend: Complete application form
+    Frontend->>API: POST /applications
+    API->>API: Authenticate user
+    API->>API: Validate fields
+    API->>DB: Insert application with user_id
+    DB-->>API: Created application
+    API-->>Frontend: 201 Created
+    Frontend-->>User: Display saved application
+    end
+```
